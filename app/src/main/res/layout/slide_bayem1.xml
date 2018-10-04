@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/imageView2"
+        android:src="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/imageView3"
+        android:src="@drawable/bottomprimary"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/step1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bayemstep1"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"/>
+
+    <ImageView
+        android:id="@+id/iconstep"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_rebus"
+        android:layout_below="@id/step1"/>
+
+    <TextView
+        android:id="@+id/step10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconstep"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/bayemstep1.0"
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:id="@+id/step11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/bayemstep1.1"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/textdark"/>
+
+    <TextView
+        android:id="@+id/step12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/bayemstep1.2" />
+
+</RelativeLayout>

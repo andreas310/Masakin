@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite"
+    tools:context="com.masak_in.masakin.bayem.BayemActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/buttonback"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/textbar"
+        android:src="@drawable/btnback" />
+
+    <TextView
+        android:id="@+id/textbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="@string/baryuk"
+        android:textColor="@color/colorwhite"
+        android:textSize="19sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@color/colorPrimary"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="-10dp"
+                    android:layout_below="@id/imageView3"
+                    android:src="@drawable/bottomprimary"
+                    android:id="@+id/imageView4" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignStart="@+id/waktumakanan"
+                    android:layout_below="@+id/desmakanan"
+                    android:layout_marginStart="25dp"
+                    android:src="@drawable/rate" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignTop="@+id/imageView7"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/imageView7"
+                    android:src="@drawable/rate" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:foregroundGravity="center"
+                    android:layout_below="@id/imageView2"
+                    android:src="@drawable/iconbayem"
+                    android:id="@+id/imageView6" />
+
+                <TextView
+                    android:id="@+id/waktumakanan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView7"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/waktumakanan1"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/postmakanan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/postmakanan1"
+                    android:textSize="19sp"
+                    android:textColor="@color/textdark"/>
+
+                <TextView
+                    android:id="@+id/desmakanan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/postmakanan"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="21dp"
+                    android:text="@string/desmakan1"
+                    android:textColor="@color/textmedium"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/waktumakanan"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/select"/>
+
+                <TextView
+                    android:id="@+id/textalat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/select"
+                    android:text="@string/alat"
+                    android:gravity="center"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/textdark"/>
+
+                <TextView
+                    android:id="@+id/alat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textalat"
+                    android:text="@string/alatmakan1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/textmedium"/>
+
+                <TextView
+                    android:id="@+id/textbahan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/alat"
+                    android:text="@string/bahan"
+                    android:textSize="19sp"
+                    android:gravity="center"
+                    android:textColor="@color/textdark"/>
+
+                <TextView
+                    android:id="@+id/bahan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textbahan"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/textmedium"
+                    android:text="@string/utamamakanan1"/>
+
+                <TextView
+                    android:id="@+id/textbumbu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/bahan"
+                    android:text="@string/bahan2"
+                    android:textSize="19sp"
+                    android:gravity="center"
+                    android:textColor="@color/textdark"/>
+
+                <TextView
+                    android:id="@+id/bumbu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textbumbu"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/textmedium"
+                    android:text="@string/bumbumakanan1"/>
+
+
+                <Button
+                    android:id="@+id/buttonstart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/bumbu"
+                    android:text="@string/baryuk"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/textdark"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

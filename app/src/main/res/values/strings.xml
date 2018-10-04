@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MASAK.IN</string>
+    <string name="coming">coming soon..</string>
+    <string name="baryuk">Yuk Masak!</string>
+    <string name="alat">Alat</string>
+    <string name="bahan">Bahan Utama</string>
+    <string name="bahan2">Bahan Bumbu</string>
+
+    <string name="postmakanan1">Sayur Bayem ala Resto</string>
+    <string name="waktumakanan1">15min . 2Porsi</string>
+    <string name="desmakan1">Buat kamu yang ingin merasakan segarnya kuah sop, mungkin resep
+        ini bisa jadi salah satu menu makan yang cocok di siang hari,
+        dengan cita rasa ala restoran. \nYuk Masak!</string>
+    <string name="alatmakan1">- Panci\n- Mangkuk Saji</string>
+    <string name="utamamakanan1">- 1 Ikat Bayam\n- 1 Jagung Manis\n- 1 Wortel\n- Air Secukupnya</string>
+    <string name="bumbumakanan1">- 2 Bawang Merah\n- 3 Kunci\n- Garam Secukupnya</string>
+    <string name="bayemstep1">Step 1 of 4</string>
+    <string name="bayemstep1.0">Boiling Water</string>
+    <string name="bayemstep1.1">Masak air\nHingga Mendidih</string>
+    <string name="bayemstep1.2">Panaskan air hingga mendidih menggunakan api besar</string>
+    <string name="bayemstep2">Step 2 of 4</string>
+    <string name="bayemstep2.0">Chopping</string>
+    <string name="bayemstep2.1">Potong Sayur\ndan Bumbu</string>
+    <string name="bayemstep2.2">Potong Bayam sesuai selera\nPotong Jagung menjadi 4 bagian\nIris Wortel tipis tipis\n--\nGeprek ringan bawang dan bumbu kunci dengan pisau</string>
+
+    <string name="postmakanan2">Strawberry Oatmilk</string>
+    <string name="waktumakanan2">10min . Easy</string>
+    <string name="desmakan2">Pagi-pagi keburu? mungkin ini salah satu resepyang cocok buat kamu
+        yang ingin perut terisi di pagi hari tanpa ribet. Yuk Masak!</string>
+</resources>
